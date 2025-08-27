@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+rootProject.name = 'imei-writer'
+include ':app'
